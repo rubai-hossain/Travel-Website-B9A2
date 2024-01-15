@@ -1,0 +1,78 @@
+/* Mulish Font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Mulish", sans-serif;
+}
+
+.primary-color {
+    color: #FF5400;
+}
+
+/* Navbar Style Start Here */
+.nav-container {
+    /* border: 1px solid green; */
+    width: 82%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 120px;
+}
+
+.logo-container {
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.logo-container img {
+    width: 46px;
+    object-fit: cover;
+}
+
+.nav-container h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.menu-container {
+    /* border: 1px solid blue; */
+    width: 50%;
+}
+
+.menu-container>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 44px;
+    padding: 8px 0;
+}
+
+.menu-container>ul li {
+    list-style: none;
+}
+
+.menu-container>ul a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.menu-container>ul a:hover{
+    font-weight: 700;
+    color:#FF5400;
+}
+.menu-container .item-1{
+    font-weight: 700;
+}
+
+
+
+/* Navbar Style End Here */
