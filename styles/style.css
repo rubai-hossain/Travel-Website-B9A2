@@ -100,7 +100,7 @@
     color: #FF5400;
 }
 
-.menu-container .item-1 {
+.menu-container .menu-1 {
     font-weight: 700;
 }
 
@@ -392,22 +392,111 @@ select,
     background-color: rgba(233, 68, 68, 0.05);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Why choose us Style End Here */
+
+/* Deals & Discount Style Start Here */
+.deals-discount-container{
+    text-align: center;
+}
+.deals-discount-title {
+    text-align: center;
+}
+
+.deals-discount-description {
+    text-align: center;
+    max-width: 615px;
+    margin: 24px auto;
+}
+
+.deals {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 56px;
+    border-radius: 16px;
+    display: flex;
+}
+.deal-1 {
+    background-image: url("../Images/Group\ 39.png");
+    justify-content: flex-end;
+    margin-top: 48px;
+}
+.deal-2 {
+    background-image: url("../Images/Group\ 40.png");
+    justify-content: flex-start;
+    margin-top: 24px;
+}
+.deal-3 {
+    background-image: url("../Images/Group\ 39.png");
+    justify-content: flex-end;
+    margin-top: 24px;
+}
+
+.inner-container {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+    max-width: 580px;
+}
+
+.inner-icons {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.inner-icons i {
+    font-size: 1.4rem;
+}
+
+.inner-icons p {
+    display: inline-block;
+    margin-left: 8px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.inner-container .inner-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.inner-text {
+    margin: 16px 0;
+}
+
+.inner-price {
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.inner-btn {
+    padding: 14px 24px;
+    margin-top: 24px;
+}
+.deals-discount-btn{
+    padding: 14px 22px;
+    margin-top: 48px;
+}
+/* Deals & Discount Style End Here */
+
+/* Perfect Place Style Start Here */
+
+
+
+
+
+
+
+
+
+/* Perfect Place Style End Here */
+
+
 
 
 

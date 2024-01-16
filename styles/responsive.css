@@ -83,10 +83,35 @@
     }
 
 
+    .deals-discount-container{
+        text-align: left;
+    }
+    .deal-1 {
+        margin-top: 16px;
+    }
+    .inner-container {
+        padding: 24px;
+    }
+    .inner-icons {
+        flex-wrap: wrap;
+    }
+    .deals-discount-btn{
+        /* visibility: hidden; */
+        display: none;
+    }
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+    
 }
