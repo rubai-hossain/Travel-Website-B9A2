@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: "Mulish", sans-serif;
+    box-sizing: border-box;
 }
 
 .primary-color {
@@ -65,14 +66,107 @@
     font-size: 1.125rem;
     font-weight: 400;
 }
-.menu-container>ul a:hover{
+
+.menu-container>ul a:hover {
     font-weight: 700;
-    color:#FF5400;
-}
-.menu-container .item-1{
-    font-weight: 700;
+    color: #FF5400;
 }
 
-
+.menu-container .item-1 {
+    font-weight: 700;
+}
 
 /* Navbar Style End Here */
+
+
+
+
+main {
+    width: 82%;
+    margin: 0 auto;
+    border: 1px solid blue;
+    min-height: 100vh;
+}
+
+/* Banner Style StartHere */
+.banner {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    min-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.banner-form {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 88%;
+    margin: 0 auto;
+    padding: 16px 4px;
+    margin-top: 48px;
+}
+
+.banner-form input,
+select,
+.banner-btn {
+    border: none;
+    outline: none;
+    width: 174px;
+    padding: 16px;
+    margin: 0 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.50);
+}
+
+.banner-form .option-item {
+    color: black;
+}
+
+.banner-form .banner-btn {
+    background-color: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.banner-btn i {
+    width: 24px;
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Banner Style End Here */

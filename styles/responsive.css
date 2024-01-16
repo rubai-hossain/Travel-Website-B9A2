@@ -1,12 +1,36 @@
-@media screen and (max-width:576px){
-    .nav-container{
+@media screen and (max-width:576px) {
+    .nav-container {
         min-height: 64px;
     }
-    .menu-container{
+
+    .menu-container {
         /* visibility: hidden; */
         display: none;
     }
-    .logo-container{
+
+    .logo-container {
         width: 100%;
     }
+
+    .banner-title {
+        font-size: 1.375rem;
+        margin-top: 32px;
+    }
+
+    .banner-description {
+        font-size: 0.875rem;
+        font-weight: 400;
+    }
+
+    .banner-form {
+        margin-top: 32px;
+        padding-bottom: 0;
+        width: 80%;
+        margin-bottom: 32px;
+    }
+    .banner-form input,
+    select,
+    .banner-btn {
+        width: 88%;
+        margin-bottom: 16px;
 }
