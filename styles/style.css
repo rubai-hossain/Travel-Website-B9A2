@@ -1,6 +1,8 @@
 /* Mulish Font */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+
+/* Common style CSS Start*/
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +13,30 @@
 .primary-color {
     color: #FF5400;
 }
+
+.primary-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.primary-text{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+.btn{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF5400;
+    padding: 14px 34px;
+}
+
+/* Common style CSS End*/
 
 /* Navbar Style Start Here */
 .nav-container {
@@ -158,15 +184,51 @@ select,
     margin-right: 8px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* Banner Style End Here */
+
+/* Our Popular Tour Style Start Here */
+.popular-tour-container {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.popular-tour-content {
+    /* border: 2px solid rgb(128, 0, 85); */
+    width: 49%;
+}
+
+.popular-tour-list-text {
+    margin: 20px 0;
+}
+
+.popular-tour-list {
+    margin-left: 20px;
+}
+
+.popular-tour-list li {
+    margin-bottom: 12px;
+}
+
+.popular-tour-description {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+.popular-tour-img {
+    /* border: 2px solid rgb(15, 176, 182); */
+    width: 49%;
+}
+.popular-tour-img img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+
+/* Our Popular Tour Style End Here */
